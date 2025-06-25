@@ -60,6 +60,7 @@ import model.KhachHang;
 				ResultSet rs = st.executeQuery();
 				while (rs.next()) {
 					System.out.println("Hello World");
+					System.out.println("Hello World");
 					String maDH = rs.getString(1);
 					String maKH = rs.getString(2);
 					String diachimuahang = rs.getString(3);
